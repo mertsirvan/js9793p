@@ -1,0 +1,52 @@
+body {
+    background-color: #021e2e;
+    color:#fff;
+}
+
+h1 {
+    font-size: 58px;
+    font-weight: 700;
+}
+
+section {
+    padding: 180px 0;
+}
+
+section.section-secondary {
+    background-color:#032b42;
+}
+
+#distraction-time {
+    display: inline-block;
+    color: rgb(248, 39, 39);
+}
+
+.distraction-txt {
+    font-size:38px;
+    font-weight: 700;
+}
+
+#player-container #play-pause {
+    cursor: pointer;
+    text-indent: -999999px;
+    height:50px;
+    width: 50px;
+    padding: 15px 15px;
+    z-index: 2;
+    background-image: url('../images/play-solid.svg');
+    background-repeat: no-repeat!important;
+    background-position: center;
+    background-size: 16px;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:20px;
+    background-color: #fff;
+}
+
+.play {
+    background-image: url('../images/pause-solid.svg');
+}
+
+.pause {
+     background-image: url('../images/pause-solid.svg')!important;
+}
